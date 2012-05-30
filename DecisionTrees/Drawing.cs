@@ -34,64 +34,35 @@ namespace DecisionTrees
         /// <param name="l"></param>
         public void recursion(DecisionNode D_Node, DecisionBranchNodeCollection D_B_N_C, int l)
         {
-          //  int j;
-          //  if (D_B_N_C != null)
-          //  {
+            int j;
+            if (D_B_N_C != null)
+            {
 
-          //      for (j = 0; j < D_B_N_C.Count; j++)
-          //      {
-          //          // MessageBox.Show(D_B_N_C[j].ToString());
-          //          dinosaurs.Add(D_B_N_C[j].ToString());
-          //          str.AppendLine(D_B_N_C[j].ToString());
-                 
-          //          recursion(D_B_N_C[j].Parent, D_B_N_C[j].Branches, j);
-          //      }
-          //      dinosaurs.Add("E");
-          //      dinosaurs.Add(D_Node.ToString());
-          //      str.AppendLine("E");
-          //      str.AppendLine(D_Node.ToString());
-
-          //  }
-          
-          //str.AppendLine(D_Node.Branches[l].Output.ToString());
-          // dinosaurs.Add(D_Node.Branches[l].Output.ToString());
-
-          // //dinosaurs.Add(D_Node.Branches[l].Output.ToString());
-
-          //  dinosaurs.Add("WER");
-          //  str.AppendLine("WER");
-          //  dinosaurs.Add(D_Node.ToString());
-          //  str.AppendLine(D_Node.ToString());
-
-            
-                int j;
-                if (D_B_N_C != null)
+                for (j = 0; j < D_B_N_C.Count; j++)
                 {
+                    // MessageBox.Show(D_B_N_C[j].ToString());
+                    dinosaurs.Add(D_B_N_C[j].ToString());
+                    str.AppendLine(D_B_N_C[j].ToString());
 
-                    for (j = 0; j < D_B_N_C.Count; j++)
-                    {
-                        // MessageBox.Show(D_B_N_C[j].ToString());
-                        dinosaurs.Add(D_B_N_C[j].ToString());
-                        str.AppendLine(D_B_N_C[j].ToString());
-
-                        recursion(D_B_N_C[j].Parent, D_B_N_C[j].Branches, j);
-                    }
-                    dinosaurs.Add("E");
-                    str.AppendLine("E");
-
-
+                    recursion(D_B_N_C[j].Parent, D_B_N_C[j].Branches, j);
                 }
-
-
-                //dinosaurs.Add(D_Node.Branches[l].Output.ToString());
-
-                dinosaurs.Add("WER");
-                str.AppendLine("WER");
-
+                dinosaurs.Add("E");
                 dinosaurs.Add(D_Node.ToString());
+                str.AppendLine("E");
                 str.AppendLine(D_Node.ToString());
 
-            
+            }
+
+            str.AppendLine(D_Node.Branches[l].Output.ToString());
+            dinosaurs.Add(D_Node.Branches[l].Output.ToString());
+
+            //dinosaurs.Add(D_Node.Branches[l].Output.ToString());
+
+            dinosaurs.Add("WER");
+            str.AppendLine("WER");
+            dinosaurs.Add(D_Node.ToString());
+            str.AppendLine(D_Node.ToString());
+
 
         }
         /// <summary>

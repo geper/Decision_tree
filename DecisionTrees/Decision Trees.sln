@@ -8,8 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решен
 		Decision Trees.vsd = Decision Trees.vsd
 	EndProjectSection
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{7398C30B-E293-40DD-B27A-4CC6E56EB28C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,16 +28,6 @@ Global
 		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Release|Mixed Platforms.Build.0 = Release|x86
 		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Release|x86.ActiveCfg = Release|x86
 		{67D5F5DD-95D8-4DF3-B4F4-B43A2FCFE02F}.Release|x86.Build.0 = Release|x86
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{7398C30B-E293-40DD-B27A-4CC6E56EB28C}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

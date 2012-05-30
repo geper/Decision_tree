@@ -66,69 +66,69 @@ namespace DecisionTrees
         private void MenuFileOpen_Click(object sender, EventArgs e)
         {
             #region загрузка пользователем XLS
-            if (openFileDialog.ShowDialog(this) == DialogResult.OK)
-            {
-                string filename = openFileDialog.FileName;
-                string extension = Path.GetExtension(filename);
-                if (extension == ".xls" || extension == ".xlsx")
-                {
-                    ExcelReader db = new ExcelReader(filename, true, false);
-                    TableSelectDialog t = new TableSelectDialog(db.GetWorksheetList());
-
-                    if (t.ShowDialog(this) == DialogResult.OK)
-                    {
-                        DataTable tableSource = db.GetWorksheet(t.Selection);
-
-                        double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
-
-                        // Detect the kind of problem loaded.
-                        if (sourceMatrix.GetLength(1) == 2)
-                        {
-                            MessageBox.Show("Недостаточно данных");
-                        }
-                        else
-                        {
-                            this.dgvLearningSource.DataSource = tableSource;
-                            this.dgvTestingSource.DataSource = tableSource.Copy();
-
-
-                           // CreateScatterplot(graphInput, sourceMatrix);
-                        }
-                    }
-                }
-            }
-            #endregion
-            #region быстрая загрузка
-            //string filename = ".//Resources//3.xls";
-
-            //string extension = Path.GetExtension(filename);
-
-            //ExcelReader db = new ExcelReader(filename, true, false);
-            ////ЛИСТЫ
-            //string [] sd = db.GetWorksheetList();
-
-            //TableSelectDialog t = new TableSelectDialog(sd);
-
-            //if (t.ShowDialog(this) == DialogResult.OK)
+            //if (openFileDialog.ShowDialog(this) == DialogResult.OK)
             //{
-            //    DataTable tableSource = db.GetWorksheet(t.Selection);
-
-            //    double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
-
-             
-            //    if (sourceMatrix.GetLength(1) == 2)
+            //    string filename = openFileDialog.FileName;
+            //    string extension = Path.GetExtension(filename);
+            //    if (extension == ".xls" || extension == ".xlsx")
             //    {
-            //        MessageBox.Show("Недостаточно данных");
-            //    }
-            //    else
-            //    {
-            //        this.dgvLearningSource.DataSource = tableSource;
-            //        this.dgvTestingSource.DataSource = tableSource.Copy();
+            //        ExcelReader db = new ExcelReader(filename, true, false);
+            //        TableSelectDialog t = new TableSelectDialog(db.GetWorksheetList());
+
+            //        if (t.ShowDialog(this) == DialogResult.OK)
+            //        {
+            //            DataTable tableSource = db.GetWorksheet(t.Selection);
+
+            //            double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
+
+            //            // Detect the kind of problem loaded.
+            //            if (sourceMatrix.GetLength(1) == 2)
+            //            {
+            //                MessageBox.Show("Недостаточно данных");
+            //            }
+            //            else
+            //            {
+            //                this.dgvLearningSource.DataSource = tableSource;
+            //                this.dgvTestingSource.DataSource = tableSource.Copy();
 
 
-            //       // CreateScatterplot(graphInput, sourceMatrix);
+            //               // CreateScatterplot(graphInput, sourceMatrix);
+            //            }
+            //        }
             //    }
             //}
+            #endregion
+            #region быстрая загрузка
+            string filename = ".//Resources//2.xls";
+
+            string extension = Path.GetExtension(filename);
+
+            ExcelReader db = new ExcelReader(filename, true, false);
+            //ЛИСТЫ
+            string[] sd = db.GetWorksheetList();
+
+            TableSelectDialog t = new TableSelectDialog(sd);
+
+            if (t.ShowDialog(this) == DialogResult.OK)
+            {
+                DataTable tableSource = db.GetWorksheet(t.Selection);
+
+                double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
+
+
+                if (sourceMatrix.GetLength(1) == 2)
+                {
+                    MessageBox.Show("Недостаточно данных");
+                }
+                else
+                {
+                    this.dgvLearningSource.DataSource = tableSource;
+                    this.dgvTestingSource.DataSource = tableSource.Copy();
+
+
+                    // CreateScatterplot(graphInput, sourceMatrix);
+                }
+            }
             # endregion
 
         }
@@ -206,7 +206,6 @@ namespace DecisionTrees
                     System.Linq.Expressions.Expression df = tree.ToExpression();
 
                 // tree.Compute()
-
                 }
                 #endregion
 
