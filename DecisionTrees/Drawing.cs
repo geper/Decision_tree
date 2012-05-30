@@ -215,11 +215,13 @@ namespace DecisionTrees
             //    MyProc.StartInfo.Arguments = @" -Tpng -o " + "\"" + adss_png1 + "\"" + " " + "\"" + adss + "\"";
             }
 
-          
+
+            MyProc.StartInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
           
             //MyProc.StartInfo.Arguments = @" -Tpng -o " +  adss_png  + " " + adss;
 
             bool gj = MyProc.StartInfo.UseShellExecute;
+            
             bool g = MyProc.Start();
         }
     }
