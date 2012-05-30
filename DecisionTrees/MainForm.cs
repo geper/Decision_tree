@@ -99,7 +99,7 @@ namespace DecisionTrees
             //}
             #endregion
             #region быстрая загрузка
-            string filename = ".//Resources//2.xls";
+            string filename = ".//Resources//3.xls";
 
             string extension = Path.GetExtension(filename);
 

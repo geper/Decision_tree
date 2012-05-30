@@ -161,7 +161,6 @@
     <None Include="Resources\examples.xls">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Ресурсы\exam F.xls" />
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Resources\recursion.png" />

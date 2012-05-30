@@ -47,7 +47,7 @@ namespace DecisionTrees
                     recursion(D_B_N_C[j].Parent, D_B_N_C[j].Branches, j);
                 }
                 dinosaurs.Add("E");
-                dinosaurs.Add(D_Node.ToString());
+               // dinosaurs.Add(D_Node.ToString());
                 str.AppendLine("E");
                 str.AppendLine(D_Node.ToString());
 
@@ -91,9 +91,10 @@ namespace DecisionTrees
 
                 for (int i =0;i<str_.Count-1;i++)
                 {
+                    
                     if (str_[i + 1] == "WER" && str_[i] != "WER" && str_[i] != "E" || str_[i + 1] == "E" && str_[i] != "WER" && str_[i] != "E")
                     {
-                        Str_out.AppendLine("\"" +str_[i] + " id:"+i.ToString() + "\"");
+                        Str_out.AppendLine("\"" +str_[i] + " \nid:"+i.ToString() + "\"");
                         Str_out.AppendLine(";");
                     }
                      if (i + 1 == str_.Count && str_[i] != "WER" && str_[i] != "E")
@@ -130,8 +131,17 @@ namespace DecisionTrees
             int indfg=0;
             dinosaurs.RemoveAt(dinosaurs.Count-1);
            
+            for (int l = 0; l < dinosaurs.Count; l++)
+            {
+                if (dinosaurs[l] == "")
+                {
+                    dinosaurs.RemoveAt(l);
+                }
+            }
+
             for (int j = 0; j < dinosaurs.Count; j++)
             {
+
                 if (dinosaurs[j] == "WER")
                 {
                     indfg=j;
@@ -154,6 +164,28 @@ namespace DecisionTrees
 
               //  str_.Find(str_[j].ToString());
             }
+            for (int z = 0; z < dinosaurs.Count; z++)
+            {
+                if (dinosaurs[z] == "Root" && z + 1 != dinosaurs.Count)
+                {
+
+                    if (dinosaurs[z] == "Root" && dinosaurs[z + 1] == "WER")
+                    {
+                        dinosaurs.RemoveAt(z);
+                    }
+
+                }
+                if (dinosaurs[z] == "Root" && z + 1 == dinosaurs.Count)
+                {
+
+
+                    dinosaurs.RemoveAt(z);
+                }
+                
+            }
+
+
+
         }
         /// <summary>
         /// GV to Png
