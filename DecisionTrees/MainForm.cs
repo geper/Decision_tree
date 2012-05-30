@@ -53,6 +53,8 @@ namespace DecisionTrees
 
             asd = new Tree_View();
             openFileDialog.InitialDirectory = Path.Combine(Application.StartupPath, "Resources");
+
+            toolTip1.SetToolTip(groupBox1, "+/- раскрыть/скрыть узел \n*-раскрыть полностью ветвь");
         }
 
         internal Drawing Drawing
@@ -183,24 +185,6 @@ namespace DecisionTrees
 
                     c45 = new C45Learning(tree);
                     double error = c45.Run(inputs, outputs);
-
-                    Drawing dr = new Drawing();
-
-                    dr.recursion(tree.Root, tree.Root.Branches, 0);
-                    dr.Save_();
-
-                    asd.Dispose();
-                    asd.Close();
-
-                    asd = new Tree_View();
-
-                    asd.userControl11.Load_f(Application.StartupPath);
-
-                    // отображаем построенной дереыыо решений
-                    decisionTreeView1.TreeSource = tree;
-                    System.Linq.Expressions.Expression df = tree.ToExpression();
-
-                    // tree.Compute()
                 }
                 #endregion
 
@@ -238,21 +222,26 @@ namespace DecisionTrees
 
                     double error = id3learning.Run(inputs, outputs);
 
-                    asd.Dispose();
-                    asd.Close();
-
-                    Drawing dr = new Drawing();
-
-                    dr.recursion(tree.Root, tree.Root.Branches, 0);
-                    dr.Save_();
-
-                    asd = new Tree_View();
-                    asd.userControl11.Load_f(Application.StartupPath);
-
-                    // отображаем построенной дереыыо решений
-                    decisionTreeView1.TreeSource = tree;
                 }
                 #endregion
+
+                asd.Dispose();
+                asd.Close();
+
+                Drawing dr = new Drawing();
+
+                dr.recursion(tree.Root, tree.Root.Branches, 0);
+                dr.Save_();
+
+                asd = new Tree_View();
+                asd.userControl11.Load_f(Application.StartupPath);
+
+                System.Linq.Expressions.Expression df = tree.ToExpression();
+
+              
+
+                // отображаем построенной дереыыо решений
+                decisionTreeView1.TreeSource = tree;
 
                 try
                 {
@@ -470,6 +459,22 @@ namespace DecisionTrees
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+            e.ToolTipSize = new Size(200, 70);
+            var s = e.AssociatedControl;
+        }
+
+        private void decisionTreeView1_MouseEnter(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }
