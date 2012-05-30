@@ -129,22 +129,11 @@ namespace DecisionTrees
 
         private void toolTip1_Popup(object sender, PopupEventArgs e)
         {
-           
-           // toolTip1.SetToolTip(numericUpDown_Out, "fdgfgdfgdf");
-
-
             e.ToolTipSize = new Size(100, 50);
-           
             var s= e.AssociatedControl;
-           // toolTip1.Show("hkhjkjjk", e.AssociatedWindow);
-
             if (s != null)
             {
-                
-                
-               // toolTip1.Show("hkhjkjjk", e.AssociatedWindow);
             }
-           
         }
     }
 }

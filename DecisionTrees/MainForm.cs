@@ -23,7 +23,9 @@ namespace DecisionTrees
 {
     public partial class MainForm : Form
     {
-
+        /// <summary>
+        /// отображенийе дерева
+        /// </summary>
         Tree_View asd;
 
         /// <summary>
@@ -31,12 +33,15 @@ namespace DecisionTrees
         /// </summary>
         Property_Tree Tree_property;
 
+       /// <summary>
+       /// Дерево решений
+       /// </summary>
         private DecisionTree tree;
 
         string[] sourceColumns;
 
         /// <summary>
-        /// Инициализация главной формы
+        /// Инициализация 
         /// </summary>
         public MainForm()
         {
@@ -48,7 +53,6 @@ namespace DecisionTrees
 
             asd = new Tree_View();
             openFileDialog.InitialDirectory = Path.Combine(Application.StartupPath, "Resources");
-
         }
 
         internal Drawing Drawing
@@ -61,8 +65,11 @@ namespace DecisionTrees
             {
             }
         }
-
-
+        /// <summary>
+        /// Импорт .xls
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuFileOpen_Click(object sender, EventArgs e)
         {
             #region загрузка пользователем XLS
@@ -112,10 +119,7 @@ namespace DecisionTrees
             if (t.ShowDialog(this) == DialogResult.OK)
             {
                 DataTable tableSource = db.GetWorksheet(t.Selection);
-
                 double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
-
-
                 if (sourceMatrix.GetLength(1) == 2)
                 {
                     MessageBox.Show("Недостаточно данных");
@@ -124,21 +128,20 @@ namespace DecisionTrees
                 {
                     this.dgvLearningSource.DataSource = tableSource;
                     this.dgvTestingSource.DataSource = tableSource.Copy();
-
-
                     // CreateScatterplot(graphInput, sourceMatrix);
                 }
             }
             # endregion
-
         }
-
-
+        /// <summary>
+        /// Создание дерева 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCreate_Click(object sender, EventArgs e)
         {
             try
             {
-
                 if (dgvLearningSource.DataSource == null)
                 {
                     MessageBox.Show("Загрузите данные");
@@ -148,11 +151,8 @@ namespace DecisionTrees
                 {
                     Tree_property.ShowDialog();
                 }
-
-
                 // Завершаем операцию с DataGridView
                 dgvLearningSource.EndEdit();
-
 
                 #region Алгоритм С4.5
                 ///
@@ -171,19 +171,15 @@ namespace DecisionTrees
                     // получаем выходные значения
                     int[] outputs = sourceMatrix.GetColumn(Tree_property.Coun_Out - 1).ToInt32();
 
-
                     DecisionVariable[] attributes = new DecisionVariable[Tree_property.Coun_In];
 
                     for (int j = 0; j < Tree_property.Coun_In; j++)
                     {
-
                         attributes[j] = new DecisionVariable(dgvLearningSource.Columns[j].Name, DecisionAttributeKind.Continuous);
-
                     }
 
                     // создаем дерево решений
                     tree = new DecisionTree(attributes, 60);
-
 
                     c45 = new C45Learning(tree);
                     double error = c45.Run(inputs, outputs);
@@ -192,7 +188,6 @@ namespace DecisionTrees
 
                     dr.recursion(tree.Root, tree.Root.Branches, 0);
                     dr.Save_();
-
 
                     asd.Dispose();
                     asd.Close();
@@ -243,7 +238,6 @@ namespace DecisionTrees
 
                     double error = id3learning.Run(inputs, outputs);
 
-
                     asd.Dispose();
                     asd.Close();
 
@@ -257,9 +251,6 @@ namespace DecisionTrees
 
                     // отображаем построенной дереыыо решений
                     decisionTreeView1.TreeSource = tree;
-
-
-
                 }
                 #endregion
 
@@ -279,25 +270,8 @@ namespace DecisionTrees
             {
                 MessageBox.Show(t.Message);
             }
-
-
-            // pictureBox1.Update();
-
-            //
-            //var ranges = Matrix.Range(sourceMatrix);
-            //double[][] map = Matrix.CartesianProduct(
-            //    Matrix.Interval(ranges[0], 0.05),
-            //    Matrix.Interval(ranges[1], 0.05));
-
-            //var result = map.Apply(tree.Compute).Apply(Math.Sign);
-
-            //var graph = map.ToMatrix().InsertColumn(result.ToDouble());
-
-            //CreateScatterplot(zedGraphControl2, graph);
         }
-
-
-        private void btnTestingRun_Click(object sender, EventArgs e)
+       private void btnTestingRun_Click(object sender, EventArgs e)
         {
             if (tree == null || dgvTestingSource.DataSource == null)
             {
@@ -305,12 +279,10 @@ namespace DecisionTrees
                 return;
             }
 
-
             //создаем матрицу из  data table
             double[,] sourceMatrix = (dgvLearningSource.DataSource as DataTable).ToMatrix();
 
-
-            //получаем входные значения
+           //получаем входные значения
             double[][] inputs = sourceMatrix.Submatrix(null, 0, Tree_property.Coun_In - 1).ToArray();
 
             //получаем вsходные значения
@@ -332,12 +304,8 @@ namespace DecisionTrees
                 col.Visible = true;
             Column1.Visible = Column2.Visible = false;
 
-
-            CreateResultScatterplot(zedGraphControl1, inputs, expected.ToDouble(), output.ToDouble());
+           CreateResultScatterplot(zedGraphControl1, inputs, expected.ToDouble(), output.ToDouble());
         }
-
-
-
         public void CreateScatterplot(ZedGraphControl zgc, double[,] graph)
         {
             GraphPane myPane = zgc.GraphPane;
@@ -370,7 +338,6 @@ namespace DecisionTrees
             myCurve.Symbol.Border.IsVisible = false;
             myCurve.Symbol.Fill = new Fill(Color.Green);
 
-
             //myPane.Chart.Fill = new Fill(Color.White, Color.LightGoldenrodYellow, 45.0f);
             //myPane.Fill = new Fill(Color.White, Color.SlateGray, 45.0f);
             myPane.Fill = new Fill(Color.WhiteSmoke);
@@ -378,13 +345,10 @@ namespace DecisionTrees
             zgc.AxisChange();
             zgc.Invalidate();
         }
-
-
         public void CreateResultScatterplot(ZedGraphControl zgc, double[][] inputs, double[] expected, double[] output)
         {
             GraphPane myPane = zgc.GraphPane;
             myPane.CurveList.Clear();
-
 
             myPane.Title.IsVisible = false;
             myPane.XAxis.Title.Text = sourceColumns[0];
@@ -441,10 +405,8 @@ namespace DecisionTrees
             zgc.AxisChange();
             zgc.Invalidate();
         }
-
         private void process1_Exited(object sender, EventArgs e)
         {
-
         }
 
         private void toolStripMenuItem5_Click(object sender, EventArgs e)
@@ -470,20 +432,22 @@ namespace DecisionTrees
         /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
-
-            // asd.Dispose();
-            // asd.Close();
-
-            //asd = new Tree_View();
-            //asd.userControl11.Load_f(Application.StartupPath);
             asd.Visible = true;
         }
-
+        /// <summary>
+        /// Показать окно свойств для построения дерева
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void показатьОкноToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Tree_property.ShowDialog();
         }
-
+        /// <summary>
+        /// Экспорт картинки
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void toolStripMenuItem4_Click(object sender, EventArgs e)
         {
             saveFileDialog1.Filter = "Files png (*.png)|*.png|All files (*.*)|*.*";
@@ -508,7 +472,5 @@ namespace DecisionTrees
 
 
         }
-
-
     }
 }

@@ -43,12 +43,20 @@ namespace DecisionTrees
             {
             }
         }
-    
+    /// <summary>
+    /// Продолжить:скрыть форму
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             Visible = false;
         }
-
+        /// <summary>
+        /// закрытие окна свойств
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Tree_View_FormClosing(object sender, FormClosingEventArgs e)
         {
             userControl11.image1.Source = null;
