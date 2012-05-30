@@ -46,10 +46,13 @@ namespace DecisionTrees
 
                     recursion(D_B_N_C[j].Parent, D_B_N_C[j].Branches, j);
                 }
+               
+                
                 dinosaurs.Add("E");
-               // dinosaurs.Add(D_Node.ToString());
+               dinosaurs.Add(D_Node.ToString());
+
                 str.AppendLine("E");
-                str.AppendLine(D_Node.ToString());
+               str.AppendLine(D_Node.ToString());
 
             }
 
@@ -60,8 +63,8 @@ namespace DecisionTrees
 
             dinosaurs.Add("WER");
             str.AppendLine("WER");
-            dinosaurs.Add(D_Node.ToString());
-            str.AppendLine(D_Node.ToString());
+           dinosaurs.Add(D_Node.ToString());
+         str.AppendLine(D_Node.ToString());
 
 
         }
@@ -93,13 +96,15 @@ namespace DecisionTrees
                 {
                     
                     if (str_[i + 1] == "WER" && str_[i] != "WER" && str_[i] != "E" || str_[i + 1] == "E" && str_[i] != "WER" && str_[i] != "E")
-                    {
-                        Str_out.AppendLine("\"" +str_[i] + " \nid:"+i.ToString() + "\"");
+                    {//
+                        //Str_out.AppendLine("\"" +str_[i] + "id:"+i.ToString() + "\"");
+
+                        Str_out.AppendLine("\"" + str_[i]  + "\"");
                         Str_out.AppendLine(";");
                     }
                      if (i + 1 == str_.Count && str_[i] != "WER" && str_[i] != "E")
                     {
-                       // Str_out.AppendLine("\"" + str_[i] + "\"");
+                        Str_out.AppendLine("\"" + str_[i] + "\"");
                         Str_out.AppendLine(";");
                     }
                     //else if (str_[i+1] == "E")
@@ -166,13 +171,10 @@ namespace DecisionTrees
             }
             for (int z = 0; z < dinosaurs.Count; z++)
             {
-                if (dinosaurs[z] == "Root" && z + 1 != dinosaurs.Count)
+                if (dinosaurs[z] == "Root" && z + 1 != dinosaurs.Count&&dinosaurs[z + 1] == "WER")
                 {
-
-                    if (dinosaurs[z] == "Root" && dinosaurs[z + 1] == "WER")
-                    {
                         dinosaurs.RemoveAt(z);
-                    }
+                
 
                 }
                 if (dinosaurs[z] == "Root" && z + 1 == dinosaurs.Count)
