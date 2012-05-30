@@ -222,3 +222,6 @@ M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  
 J:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\DecisionTrees.exe.config
 J:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.exe
 J:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.pdb
+D:\Git Dip\Decision_tree\DecisionTrees\bin\Debug\DecisionTrees.exe.config
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.exe
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.pdb
