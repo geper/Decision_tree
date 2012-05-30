@@ -24,8 +24,8 @@ namespace DecisionTrees
     public partial class MainForm : Form
     {
 
-        Tree_View asd ;
-       
+        Tree_View asd;
+
         /// <summary>
         /// параметры построени€ дерева
         /// </summary>
@@ -205,7 +205,7 @@ namespace DecisionTrees
                     decisionTreeView1.TreeSource = tree;
                     System.Linq.Expressions.Expression df = tree.ToExpression();
 
-                // tree.Compute()
+                    // tree.Compute()
                 }
                 #endregion
 
@@ -218,7 +218,7 @@ namespace DecisionTrees
                     // создаем матрицу из дататыйбл
                     int[][] arr = (dgvLearningSource.DataSource as DataTable).ToIntArray(sourceColumns);
                     int[,] sourceMatrix = arr.ToMatrix();
-               
+
 
 
                     //// получаем входные значени€
@@ -277,11 +277,11 @@ namespace DecisionTrees
             }
             catch (Exception t)
             {
-                MessageBox.Show( t.Message);
+                MessageBox.Show(t.Message);
             }
-    
 
-           // pictureBox1.Update();
+
+            // pictureBox1.Update();
 
             //
             //var ranges = Matrix.Range(sourceMatrix);
@@ -311,12 +311,12 @@ namespace DecisionTrees
 
 
             //получаем входные значени€
-            double[][] inputs = sourceMatrix.Submatrix(null, 0, Tree_property.Coun_In-1).ToArray();
+            double[][] inputs = sourceMatrix.Submatrix(null, 0, Tree_property.Coun_In - 1).ToArray();
 
             //получаем вsходные значени€
             int[] expected = new int[sourceMatrix.GetLength(0)];
             for (int i = 0; i < expected.Length; i++)
-                expected[i] = (int)sourceMatrix[i, Tree_property.Coun_Out-1];
+                expected[i] = (int)sourceMatrix[i, Tree_property.Coun_Out - 1];
 
             // вычисление
             int[] output = new int[inputs.Length];
@@ -325,10 +325,10 @@ namespace DecisionTrees
 
 
             // »спользование матрицы неточностей вычислить  статистические данные.
-            ConfusionMatrix confusionMatrix = new ConfusionMatrix(output, expected, 1,0);
+            ConfusionMatrix confusionMatrix = new ConfusionMatrix(output, expected, 1, 0);
             dgvPerformance.DataSource = new List<ConfusionMatrix> { confusionMatrix };
 
-            foreach (DataGridViewColumn col in dgvPerformance.Columns) 
+            foreach (DataGridViewColumn col in dgvPerformance.Columns)
                 col.Visible = true;
             Column1.Visible = Column2.Visible = false;
 
@@ -385,7 +385,7 @@ namespace DecisionTrees
             GraphPane myPane = zgc.GraphPane;
             myPane.CurveList.Clear();
 
- 
+
             myPane.Title.IsVisible = false;
             myPane.XAxis.Title.Text = sourceColumns[0];
             myPane.YAxis.Title.Text = sourceColumns[1];
@@ -471,19 +471,44 @@ namespace DecisionTrees
         private void button1_Click(object sender, EventArgs e)
         {
 
-           // asd.Dispose();
-           // asd.Close();
+            // asd.Dispose();
+            // asd.Close();
 
-           //asd = new Tree_View();
-           //asd.userControl11.Load_f(Application.StartupPath);
-            asd.Visible = true;  
+            //asd = new Tree_View();
+            //asd.userControl11.Load_f(Application.StartupPath);
+            asd.Visible = true;
         }
 
         private void показатьќкноToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Tree_property.ShowDialog();
         }
-   
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            saveFileDialog1.Filter = "Files png (*.png)|*.png|All files (*.*)|*.*";
+            saveFileDialog1.FilterIndex = 2;
+            saveFileDialog1.RestoreDirectory = true;
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string adss_png = Path.Combine(Application.StartupPath, "Resources\\recursion.png");
+                string filename = saveFileDialog1.FileName;
+                try
+                {
+                    File.Copy(adss_png, filename, true);
+                }
+                catch (Exception a)
+                {
+                    string h = a.Message;
+                }
+            }
+        }
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
 
     }
 }
