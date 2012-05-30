@@ -1,0 +1,224 @@
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Resources\examples.xls
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\DecisionTrees.exe.config
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\DecisionTrees.exe
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\DecisionTrees.pdb
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Audio.dll
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Controls.dll
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.MachineLearning.dll
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Math.dll
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Statistics.dll
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\AForge.dll
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\AForge.Math.dll
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\ZedGraph.dll
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.dll
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Audio.xml
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Controls.pdb
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Controls.xml
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.MachineLearning.pdb
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.MachineLearning.xml
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Math.pdb
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Math.xml
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Statistics.pdb
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.Statistics.xml
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\AForge.xml
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\AForge.Math.xml
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\ZedGraph.xml
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.pdb
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\bin\Debug\Accord.xml
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\obj\x86\Debug\DecisionTrees.MainForm.resources
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\obj\x86\Debug\DecisionTrees.Properties.Resources.resources
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\obj\x86\Debug\DecisionTrees.TableSelectDialog.resources
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\obj\x86\Debug\DecisionTrees.exe
+E:\Downloads\диплом\accord-tree-source\Samples\MachineLearning\DecisionTrees\obj\x86\Debug\DecisionTrees.pdb
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\DecisionTrees.exe.config
+E:\Учеба\диплом\Программа\DecisionTrees\obj\x86\Debug\DecisionTrees.exe
+E:\Учеба\диплом\Программа\DecisionTrees\obj\x86\Debug\DecisionTrees.pdb
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Resources\examples.xls
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\DecisionTrees.exe
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\DecisionTrees.pdb
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Audio.dll
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Controls.dll
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.MachineLearning.dll
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Math.dll
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Statistics.dll
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\AForge.dll
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\AForge.Math.dll
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.dll
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Audio.xml
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Controls.pdb
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Controls.xml
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.MachineLearning.pdb
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.MachineLearning.xml
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Math.pdb
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Math.xml
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Statistics.pdb
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.Statistics.xml
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\AForge.xml
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\AForge.Math.xml
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\ZedGraph.xml
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.pdb
+E:\Учеба\диплом\Программа\DecisionTrees\bin\Debug\Accord.xml
+E:\Учеба\диплом\Программа\DecisionTrees\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Учеба\диплом\Программа\DecisionTrees\obj\x86\Debug\DecisionTrees.MainForm.resources
+E:\Учеба\диплом\Программа\DecisionTrees\obj\x86\Debug\DecisionTrees.Properties.Resources.resources
+E:\Учеба\диплом\Программа\DecisionTrees\obj\x86\Debug\DecisionTrees.TableSelectDialog.resources
+E:\Учеба\диплом\Программа\DecisionTrees\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Учеба\диплом\Программа\DecisionTrees\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\DecisionTrees.exe.config
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\obj\x86\Debug\DecisionTrees.exe
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\obj\x86\Debug\DecisionTrees.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Resources\examples.xls
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\DecisionTrees.exe
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\DecisionTrees.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Audio.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Controls.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.MachineLearning.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Math.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Statistics.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\AForge.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\AForge.Math.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Audio.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Controls.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Controls.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.MachineLearning.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.MachineLearning.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Math.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Math.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Statistics.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.Statistics.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\AForge.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\AForge.Math.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\ZedGraph.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\bin\Debug\Accord.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\obj\x86\Debug\DecisionTrees.AboutBox1.resources
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\obj\x86\Debug\DecisionTrees.MainForm.resources
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\obj\x86\Debug\DecisionTrees.Properties.Resources.resources
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\obj\x86\Debug\DecisionTrees.TableSelectDialog.resources
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees - копия\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\DecisionTrees.exe.config
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\DecisionTrees.exe
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\DecisionTrees.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Resources\examples.xls
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\DecisionTrees.exe
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\DecisionTrees.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Audio.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Controls.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.MachineLearning.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Math.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Statistics.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\AForge.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\AForge.Math.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.dll
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Audio.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Controls.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Controls.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.MachineLearning.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.MachineLearning.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Math.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Math.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Statistics.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.Statistics.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\AForge.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\AForge.Math.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\ZedGraph.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.pdb
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\bin\Debug\Accord.xml
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\DecisionTrees.AboutBox1.resources
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\DecisionTrees.MainForm.resources
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\DecisionTrees.Properties.Resources.resources
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\DecisionTrees.TableSelectDialog.resources
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\DecisionTrees.MDIParent1.resources
+E:\Учеба\Диплом\Программа\1.2 DecisionTrees\obj\x86\Debug\DecisionTrees.Property_Tree.resources
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees\bin\Debug\DecisionTrees.exe.config
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees\obj\x86\Debug\DecisionTrees.exe
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees\obj\x86\Debug\DecisionTrees.pdb
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\DecisionTrees.exe.config
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Resources\examples.xls
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\DecisionTrees.exe
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\DecisionTrees.pdb
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Audio.dll
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Controls.dll
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.MachineLearning.dll
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Math.dll
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Statistics.dll
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\AForge.dll
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\AForge.Math.dll
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\WPFExtensions.dll
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.dll
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Audio.xml
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Controls.pdb
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Controls.xml
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.MachineLearning.pdb
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.MachineLearning.xml
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Math.pdb
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Math.xml
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Statistics.pdb
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Statistics.xml
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\AForge.xml
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\AForge.Math.xml
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.pdb
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.xml
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\UserControl1.baml
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\UserControl1.g.cs
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees_Content.g.cs
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees_MarkupCompile.cache
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.g.resources
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.AboutBox1.resources
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.MainForm.resources
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.Properties.Resources.resources
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.Property_Tree.resources
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.TableSelectDialog.resources
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.Tree_View.resources
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.exe
+E:\Учеба\Диплом\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.pdb
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\DecisionTrees.exe.config
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.exe
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.pdb
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Resources\examples.xls
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\DecisionTrees.exe
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\DecisionTrees.pdb
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\WPFExtensions.dll
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.dll
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Audio.xml
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Controls.pdb
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Controls.xml
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.MachineLearning.pdb
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.MachineLearning.xml
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Math.pdb
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Math.xml
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Statistics.pdb
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.Statistics.xml
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\AForge.xml
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\AForge.Math.xml
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.pdb
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\Accord.xml
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\ResolveAssemblyReference.cache
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\UserControl1.baml
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\UserControl1.g.cs
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees_Content.g.cs
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees_MarkupCompile.cache
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.g.resources
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.AboutBox1.resources
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.MainForm.resources
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.Properties.Resources.resources
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.Property_Tree.resources
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.TableSelectDialog.resources
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.Tree_View.resources
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\GenerateResource.read.1.tlog
+M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\DecisionTrees.exe.config
+J:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.exe
+J:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.pdb

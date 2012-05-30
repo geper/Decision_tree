@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DecisionTrees.AboutBox1">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIAAAAgAACAgCAUAAACAAEADAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecisionTrees.Drawing">
+    <Position X="1" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAAAQAAAABAAAAAAAAKAAEAAAAAAAAAA=</HashCode>
+      <FileName>Drawing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecisionTrees.MainForm">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="btnCreate" Hidden="true" />
+      <Field Name="btnTestingRun" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="Column1" Hidden="true" />
+      <Field Name="Column10" Hidden="true" />
+      <Field Name="Column2" Hidden="true" />
+      <Field Name="Column3" Hidden="true" />
+      <Field Name="Column4" Hidden="true" />
+      <Field Name="Column5" Hidden="true" />
+      <Field Name="Column6" Hidden="true" />
+      <Field Name="Column7" Hidden="true" />
+      <Field Name="Column8" Hidden="true" />
+      <Field Name="Column9" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="decisionTreeView1" Hidden="true" />
+      <Field Name="dgvLearningSource" Hidden="true" />
+      <Field Name="dgvPerformance" Hidden="true" />
+      <Field Name="dgvTestingSource" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Field Name="groupBox11" Hidden="true" />
+      <Field Name="groupBox2" Hidden="true" />
+      <Field Name="groupBox3" Hidden="true" />
+      <Field Name="groupBox6" Hidden="true" />
+      <Field Name="groupBox7" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="openFileDialog" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="process1" Hidden="true" />
+      <Field Name="splitContainer1" Hidden="true" />
+      <Field Name="splitContainer2" Hidden="true" />
+      <Field Name="splitContainer3" Hidden="true" />
+      <Field Name="splitContainer4" Hidden="true" />
+      <Field Name="splitContainer5" Hidden="true" />
+      <Field Name="splitContainer7" Hidden="true" />
+      <Field Name="tabControl" Hidden="true" />
+      <Field Name="tabOverview" Hidden="true" />
+      <Field Name="tabPage4" Hidden="true" />
+      <Field Name="tabSamples" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+      <Field Name="toolStripMenuItem1" Hidden="true" />
+      <Field Name="toolStripMenuItem2" Hidden="true" />
+      <Field Name="toolStripMenuItem3" Hidden="true" />
+      <Field Name="toolStripMenuItem4" Hidden="true" />
+      <Field Name="toolStripMenuItem5" Hidden="true" />
+      <Method Name="toolStripMenuItem5_Click" Hidden="true" />
+      <Field Name="toolStripMenuItem6" Hidden="true" />
+      <Field Name="toolStripMenuItem7" Hidden="true" />
+      <Method Name="toolStripMenuItem7_Click" Hidden="true" />
+      <Field Name="toolStripSeparator3" Hidden="true" />
+      <Field Name="toolStripSeparator4" Hidden="true" />
+      <Field Name="zedGraphControl1" Hidden="true" />
+      <Field Name="параметрыToolStripMenuItem" Hidden="true" />
+      <Field Name="показатьОкноToolStripMenuItem" Hidden="true" />
+      <Method Name="показатьОкноToolStripMenuItem_Click" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EQSAAGQACCEAQAACwAmAQAASAAK4ZyAigGABgYBcJAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Drawing" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DecisionTrees.Program" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DecisionTrees.Property_Tree">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="Alg_Tree" Hidden="true" />
+      <Field Name="checkBox1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="Continyu" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="numericUpDown_In" Hidden="true" />
+      <Field Name="numericUpDown_Out" Hidden="true" />
+      <Field Name="Save_P" Hidden="true" />
+      <Field Name="toolTip1" Hidden="true" />
+      <Method Name="toolTip1_Popup" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAABACQAABBAABCABACDAAABQAAAgYACAAEEAAA=</HashCode>
+      <FileName>Property_Tree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecisionTrees.TableSelectDialog">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="btnCancel" Hidden="true" />
+      <Field Name="btnOk" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="listBox1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAABEAAACAAAACAAAABAAAAAAAAAAAQAA=</HashCode>
+      <FileName>TableSelectDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecisionTrees.Tree_View">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="elementHost1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="splitContainer1" Hidden="true" />
+      <Field Name="userControl11" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AggAAAAAACAAAAABQACAAAACAAAYIQAAAEAAAAAAAAA=</HashCode>
+      <FileName>Tree_View.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UserControl1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DecisionTrees.UserControl1">
+    <Position X="6.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAEAAA=</HashCode>
+      <FileName>UserControl1.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DecisionTrees.Properties.Resources">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="System.Windows.Forms.Form.ControlCollection" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Controls.UserControl" Collapsed="true">
+    <Position X="6.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
