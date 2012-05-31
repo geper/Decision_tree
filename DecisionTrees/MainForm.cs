@@ -19,6 +19,7 @@ using DecisionTrees;
 
 
 
+
 namespace DecisionTrees
 {
     public partial class MainForm : Form
@@ -120,6 +121,10 @@ namespace DecisionTrees
 
             if (t.ShowDialog(this) == DialogResult.OK)
             {
+                //заставка импорт
+                System.Windows.SplashScreen splashScreen = new System.Windows.SplashScreen("2.png");
+                splashScreen.Show(true);
+
                 DataTable tableSource = db.GetWorksheet(t.Selection);
                 double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
                 if (sourceMatrix.GetLength(1) == 2)
@@ -142,6 +147,8 @@ namespace DecisionTrees
         /// <param name="e"></param>
         private void btnCreate_Click(object sender, EventArgs e)
         {
+
+           
             try
             {
                 if (dgvLearningSource.DataSource == null)
@@ -155,6 +162,8 @@ namespace DecisionTrees
                 }
                 // Завершаем операцию с DataGridView
                 dgvLearningSource.EndEdit();
+
+
 
                 #region Алгоритм С4.5
                 ///

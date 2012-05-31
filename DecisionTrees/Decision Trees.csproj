@@ -164,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Resources\recursion.png" />
+    <SplashScreen Include="2.png" />
     <Content Include="Resources\recursion.png" />
     <Content Include="WPFExtensions.dll" />
   </ItemGroup>
