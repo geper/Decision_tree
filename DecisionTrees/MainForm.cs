@@ -247,7 +247,8 @@ namespace DecisionTrees
 
                 System.Linq.Expressions.Expression df = tree.ToExpression();
 
-              
+               // выбираем tabe page для просмотра дерева
+                tabControl.SelectTab(tabOverview); 
 
                 // отображаем построенной дереыыо решений
                 decisionTreeView1.TreeSource = tree;
@@ -263,6 +264,7 @@ namespace DecisionTrees
                 {
                     pictureBox1.Image = Image.FromStream(s);
                 }
+               
             }
             catch (Exception t)
             {
