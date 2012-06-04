@@ -22,7 +22,7 @@ namespace DecisionTrees
             str.AppendLine("Root");
         }
         /// <summary>
-        /// перебор дерева по веткам
+        /// Перебор дерева по веткам
         /// </summary>
         /// <param name="D_Node"></param>
         /// <param name="D_B_N_C"></param>
