@@ -17,9 +17,6 @@ using System.Text;
 using DecisionTrees;
 
 
-
-
-
 namespace DecisionTrees
 {
     public partial class MainForm : Form
@@ -76,68 +73,69 @@ namespace DecisionTrees
         private void MenuFileOpen_Click(object sender, EventArgs e)
         {
             #region загрузка пользователем XLS
-            //if (openFileDialog.ShowDialog(this) == DialogResult.OK)
-            //{
-            //    string filename = openFileDialog.FileName;
-            //    string extension = Path.GetExtension(filename);
-            //    if (extension == ".xls" || extension == ".xlsx")
-            //    {
-            //        ExcelReader db = new ExcelReader(filename, true, false);
-            //        TableSelectDialog t = new TableSelectDialog(db.GetWorksheetList());
 
-            //        if (t.ShowDialog(this) == DialogResult.OK)
-            //        {
-            //            DataTable tableSource = db.GetWorksheet(t.Selection);
+             string InitialDirectory = Path.Combine(Application.StartupPath, "Example\\");
 
-            //            double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
-
-            //            // Detect the kind of problem loaded.
-            //            if (sourceMatrix.GetLength(1) == 2)
-            //            {
-            //                MessageBox.Show("Недостаточно данных");
-            //            }
-            //            else
-            //            {
-            //                this.dgvLearningSource.DataSource = tableSource;
-            //                this.dgvTestingSource.DataSource = tableSource.Copy();
-
-
-            //               // CreateScatterplot(graphInput, sourceMatrix);
-            //            }
-            //        }
-            //    }
-            //}
-            #endregion
-            #region быстрая загрузка
-            string filename = ".//Resources//3.xls";
-
-            string extension = Path.GetExtension(filename);
-
-            ExcelReader db = new ExcelReader(filename, true, false);
-            //ЛИСТЫ
-            string[] sd = db.GetWorksheetList();
-
-            TableSelectDialog t = new TableSelectDialog(sd);
-
-            if (t.ShowDialog(this) == DialogResult.OK)
+            openFileDialog.InitialDirectory =InitialDirectory ;
+            if (openFileDialog.ShowDialog(this) == DialogResult.OK)
             {
-                //заставка импорт
-                System.Windows.SplashScreen splashScreen = new System.Windows.SplashScreen("2.png");
-                splashScreen.Show(true);
+                string filename = openFileDialog.FileName;
+                string extension = Path.GetExtension(filename);
+                if (extension == ".xls" || extension == ".xlsx")
+                {
+                    ExcelReader db = new ExcelReader(filename, true, false);
+                    TableSelectDialog t = new TableSelectDialog(db.GetWorksheetList());
 
-                DataTable tableSource = db.GetWorksheet(t.Selection);
-                double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
-                if (sourceMatrix.GetLength(1) == 2)
-                {
-                    MessageBox.Show("Недостаточно данных");
-                }
-                else
-                {
-                    this.dgvLearningSource.DataSource = tableSource;
-                    this.dgvTestingSource.DataSource = tableSource.Copy();
-                    // CreateScatterplot(graphInput, sourceMatrix);
+                    if (t.ShowDialog(this) == DialogResult.OK)
+                    {
+                        DataTable tableSource = db.GetWorksheet(t.Selection);
+
+                        double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
+
+                        // Detect the kind of problem loaded.
+                        if (sourceMatrix.GetLength(1) == 2)
+                        {
+                            MessageBox.Show("Недостаточно данных");
+                        }
+                        else
+                        {
+                            this.dgvLearningSource.DataSource = tableSource;
+                            this.dgvTestingSource.DataSource = tableSource.Copy();
+                        }
+                    }
                 }
             }
+            #endregion
+            #region быстрая загрузка
+            //string filename = ".//Resources//3.xls";
+
+            //string extension = Path.GetExtension(filename);
+
+            //ExcelReader db = new ExcelReader(filename, true, false);
+            ////ЛИСТЫ
+            //string[] sd = db.GetWorksheetList();
+
+            //TableSelectDialog t = new TableSelectDialog(sd);
+
+            //if (t.ShowDialog(this) == DialogResult.OK)
+            //{
+            //    //заставка импорт
+            //    System.Windows.SplashScreen splashScreen = new System.Windows.SplashScreen("2.png");
+            //    splashScreen.Show(true);
+
+            //    DataTable tableSource = db.GetWorksheet(t.Selection);
+            //    double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
+            //    if (sourceMatrix.GetLength(1) == 2)
+            //    {
+            //        MessageBox.Show("Недостаточно данных");
+            //    }
+            //    else
+            //    {
+            //        this.dgvLearningSource.DataSource = tableSource;
+            //        this.dgvTestingSource.DataSource = tableSource.Copy();
+            //        // CreateScatterplot(graphInput, sourceMatrix);
+            //    }
+            //}
             # endregion
         }
         /// <summary>
@@ -147,8 +145,6 @@ namespace DecisionTrees
         /// <param name="e"></param>
         private void btnCreate_Click(object sender, EventArgs e)
         {
-
-           
             try
             {
                 if (dgvLearningSource.DataSource == null)
@@ -162,7 +158,6 @@ namespace DecisionTrees
                 }
                 // Завершаем операцию с DataGridView
                 dgvLearningSource.EndEdit();
-
 
 
                 #region Алгоритм С4.5
