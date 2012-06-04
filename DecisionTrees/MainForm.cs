@@ -17,6 +17,7 @@ using System.Text;
 using DecisionTrees;
 
 
+
 namespace DecisionTrees
 {
     public partial class MainForm : Form
@@ -88,6 +89,9 @@ namespace DecisionTrees
 
                     if (t.ShowDialog(this) == DialogResult.OK)
                     {
+                        //заставка импорт
+                        System.Windows.SplashScreen splashScreen = new System.Windows.SplashScreen("2.png");
+                        splashScreen.Show(true);
                         DataTable tableSource = db.GetWorksheet(t.Selection);
 
                         double[,] sourceMatrix = tableSource.ToMatrix(out sourceColumns);
@@ -237,8 +241,7 @@ namespace DecisionTrees
                 dr.recursion(tree.Root, tree.Root.Branches, 0);
                 dr.Save_();
 
-                asd = new Tree_View();
-                asd.userControl11.Load_f(Application.StartupPath);
+
 
                 System.Linq.Expressions.Expression df = tree.ToExpression();
 
@@ -248,8 +251,24 @@ namespace DecisionTrees
                 // отображаем построенной дереыыо решений
                 decisionTreeView1.TreeSource = tree;
 
+                int o=100;
+                for (int p = 0; p < 10000000; p++)
+                {
+                     o = o + o;
+                }
+
+                asd = new Tree_View();
+                asd.userControl11.Load_f(Application.StartupPath);
+
+                for (int p = 0; p < 10000000; p++)
+                {
+                    o = o + o;
+                }
+
                 try
                 {
+
+                    File.Delete(@".\Resources\recursion2.png");
                     File.Copy(@".\Resources\recursion.png", @".\Resources\recursion2.png", true);
                 }
                 catch

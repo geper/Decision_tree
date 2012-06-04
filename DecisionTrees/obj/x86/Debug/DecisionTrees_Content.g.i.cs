@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("3.ico")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/recursion.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wpfextensions.dll")]
 

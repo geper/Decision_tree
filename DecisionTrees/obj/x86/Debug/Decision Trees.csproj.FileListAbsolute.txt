@@ -222,6 +222,20 @@ M:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  
 J:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\bin\Debug\DecisionTrees.exe.config
 J:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.exe
 J:\Чемерис Документы Ди\Программа\1.3 DecisionTrees  рекурсия\obj\x86\Debug\DecisionTrees.pdb
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\UserControl1.baml
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\UserControl1.g.cs
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees_Content.g.cs
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees_MarkupCompile.cache
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.g.resources
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.AboutBox1.resources
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.MainForm.resources
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.Properties.Resources.resources
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.Property_Tree.resources
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.TableSelectDialog.resources
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.Tree_View.resources
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Git Dip\Decision_tree\DecisionTrees\bin\Debug\Resources\examples.xls
 D:\Git Dip\Decision_tree\DecisionTrees\bin\Debug\DecisionTrees.exe.config
 D:\Git Dip\Decision_tree\DecisionTrees\bin\Debug\DecisionTrees.exe
@@ -248,19 +262,5 @@ D:\Git Dip\Decision_tree\DecisionTrees\bin\Debug\AForge.xml
 D:\Git Dip\Decision_tree\DecisionTrees\bin\Debug\AForge.Math.xml
 D:\Git Dip\Decision_tree\DecisionTrees\bin\Debug\Accord.pdb
 D:\Git Dip\Decision_tree\DecisionTrees\bin\Debug\Accord.xml
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\UserControl1.baml
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\UserControl1.g.cs
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees_Content.g.cs
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees_MarkupCompile.cache
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.g.resources
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.AboutBox1.resources
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.MainForm.resources
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.Properties.Resources.resources
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.Property_Tree.resources
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.TableSelectDialog.resources
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.Tree_View.resources
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\GenerateResource.read.1.tlog
-D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.exe
 D:\Git Dip\Decision_tree\DecisionTrees\obj\x86\Debug\DecisionTrees.pdb
