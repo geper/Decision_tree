@@ -34,6 +34,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="Accord.Audio, Version=2.5.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -165,6 +174,7 @@
   <ItemGroup>
     <None Include="bin\Debug\Resources\recursion.png" />
     <SplashScreen Include="2.png" />
+    <Content Include="3.ico" />
     <Content Include="Resources\recursion.png" />
     <SplashScreen Include="Resources\saverCreat_tree.png" />
     <Content Include="WPFExtensions.dll" />

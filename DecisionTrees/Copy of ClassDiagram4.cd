@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DecisionTrees.Drawing">
-    <Position X="1" Y="5.25" Width="1.5" />
+    <Position X="0.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAAABAAAQAAAABAAAAAAAAKAAEAAAAAAAAAA=</HashCode>
       <FileName>Drawing.cs</FileName>
@@ -75,7 +75,7 @@
       <Method Name="показатьОкноToolStripMenuItem_Click" Hidden="true" />
     </Members>
     <TypeIdentifier>
-      <HashCode>EQSAAGQACCEAQAACwAmAQAASAAK4ZyAigGABgYBcJAA=</HashCode>
+      <HashCode>FQSAAGQRCCEAQAQCwAmAQAATAAK4ZyAigGABgYBcJAA=</HashCode>
       <FileName>MainForm.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -168,11 +168,6 @@
     <Compartments>
       <Compartment Name="Methods" Collapsed="true" />
     </Compartments>
-    <NestedTypes>
-      <Class Name="System.Windows.Forms.Form.ControlCollection" Collapsed="true">
-        <TypeIdentifier />
-      </Class>
-    </NestedTypes>
     <TypeIdentifier />
   </Class>
   <Class Name="System.Windows.Controls.UserControl" Collapsed="true">
@@ -180,7 +175,7 @@
     <TypeIdentifier />
   </Class>
   <Class Name="System.Object" Collapsed="true">
-    <Position X="1.5" Y="3" Width="1.5" />
+    <Position X="2.5" Y="2.75" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />

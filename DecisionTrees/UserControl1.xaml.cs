@@ -72,6 +72,7 @@ namespace DecisionTrees
     }
             try
             {
+                File.Delete(to_adss_png);
                 File.Copy(adss_png, to_adss_png, true);
             }
             catch (Exception e)
