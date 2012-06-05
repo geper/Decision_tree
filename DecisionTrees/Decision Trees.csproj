@@ -176,7 +176,6 @@
     <SplashScreen Include="2.png" />
     <Content Include="3.ico" />
     <Content Include="Resources\recursion.png" />
-    <SplashScreen Include="Resources\saverCreat_tree.png" />
     <Content Include="WPFExtensions.dll" />
   </ItemGroup>
   <ItemGroup>

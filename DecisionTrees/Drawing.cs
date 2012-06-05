@@ -37,7 +37,7 @@ namespace DecisionTrees
                     dinosaurs.Add(D_B_N_C[j].ToString());
                     str.AppendLine(D_B_N_C[j].ToString());
                     recursion(D_B_N_C[j].Parent, D_B_N_C[j].Branches, j);
-                }      
+                }
                 dinosaurs.Add("E");
                 dinosaurs.Add(D_Node.ToString());
 
@@ -71,45 +71,45 @@ namespace DecisionTrees
         /// техт то gv
         /// </summary>
         /// <param name="str_"></param>
-        public void Str_To_gv(List <string> str_)
+        public void Str_To_gv(List<string> str_)
         {
             StringBuilder Str_out = new StringBuilder();
             Str_out.AppendLine("digraph G {");
 
-                for (int i =0;i<str_.Count-1;i++)
-                { 
-                    if (str_[i + 1] == "WER" && str_[i] != "WER" && str_[i] != "E" || str_[i + 1] == "E" && str_[i] != "WER" && str_[i] != "E")
-                    {
-                        Str_out.AppendLine("\"" + str_[i]  + "\"");
-                        Str_out.AppendLine(";");
-                    }
-                     if (i + 1 == str_.Count && str_[i] != "WER" && str_[i] != "E")
-                    {
-                        Str_out.AppendLine("\"" + str_[i] + "\"");
-                        Str_out.AppendLine(";");
-                    }
-                     if (str_[i] != "WER" && str_[i] != "E"&&str_[i + 1] != "WER" && str_[i + 1] != "E" )
-                    {
-                        Str_out.AppendLine("\""+ str_[i] +"\"");
-                      Str_out.AppendLine("->");
-                    }
+            for (int i = 0; i < str_.Count - 1; i++)
+            {
+                if (str_[i + 1] == "WER" && str_[i] != "WER" && str_[i] != "E" || str_[i + 1] == "E" && str_[i] != "WER" && str_[i] != "E")
+                {
+                    Str_out.AppendLine("\"" + str_[i] + "\"");
+                    Str_out.AppendLine(";");
                 }
-                Str_out.AppendLine("}");
+                if (i + 1 == str_.Count && str_[i] != "WER" && str_[i] != "E")
+                {
+                    Str_out.AppendLine("\"" + str_[i] + "\"");
+                    Str_out.AppendLine(";");
+                }
+                if (str_[i] != "WER" && str_[i] != "E" && str_[i + 1] != "WER" && str_[i + 1] != "E")
+                {
+                    Str_out.AppendLine("\"" + str_[i] + "\"");
+                    Str_out.AppendLine("->");
+                }
+            }
+            Str_out.AppendLine("}");
 
-                StreamWriter sr;
-                string filename = ".//Resources//recursion.gv";
-                sr = new StreamWriter(filename);
-                sr.Write(Str_out);
-                sr.Close();
-                GV_TO_Png();
+            StreamWriter sr;
+            string filename = ".//Resources//recursion.gv";
+            sr = new StreamWriter(filename);
+            sr.Write(Str_out);
+            sr.Close();
+            GV_TO_Png();
         }
         /// <summary>
         /// Удаляем совпадения
         /// </summary>
         public void Search_on()
-        {  
-            int indfg=0;
-            dinosaurs.RemoveAt(dinosaurs.Count-1);       
+        {
+            int indfg = 0;
+            dinosaurs.RemoveAt(dinosaurs.Count - 1);
             for (int l = 0; l < dinosaurs.Count; l++)
             {
                 if (dinosaurs[l] == "")
@@ -121,8 +121,8 @@ namespace DecisionTrees
             {
                 if (dinosaurs[j] == "WER")
                 {
-                    indfg=j;
-                    for (int i = j+1; i < dinosaurs.Count; i++)
+                    indfg = j;
+                    for (int i = j + 1; i < dinosaurs.Count; i++)
                     {
                         if (dinosaurs[i] == "WER")
                         {
@@ -139,16 +139,16 @@ namespace DecisionTrees
             }
             for (int z = 0; z < dinosaurs.Count; z++)
             {
-                if (dinosaurs[z] == "Root" && z + 1 != dinosaurs.Count&&dinosaurs[z + 1] == "WER")
+                if (dinosaurs[z] == "Root" && z + 1 != dinosaurs.Count && dinosaurs[z + 1] == "WER")
                 {
-                        dinosaurs.RemoveAt(z);
-                
+                    dinosaurs.RemoveAt(z);
+
                 }
                 if (dinosaurs[z] == "Root" && z + 1 == dinosaurs.Count)
                 {
                     dinosaurs.RemoveAt(z);
                 }
-                
+
             }
         }
         /// <summary>
@@ -157,7 +157,7 @@ namespace DecisionTrees
         public void GV_TO_Png()
         {
 
-            System.Diagnostics.Process MyProc = new System.Diagnostics.Process(); 
+            System.Diagnostics.Process MyProc = new System.Diagnostics.Process();
             string adss = Path.Combine(Application.StartupPath, "Resources\\recursion.gv");
             string adss_png = Path.Combine(Application.StartupPath, "Resources\\recursion.png");
             string adss_png_1 = Path.Combine(Application.StartupPath, "Resources\\recursion1.png");
@@ -165,33 +165,23 @@ namespace DecisionTrees
 
             MyProc.StartInfo.FileName = "dot.exe";
 
-           // for (int m = 0; m < 3; m++)
-          //  {
+            try
+            {
+                MyProc.StartInfo.Arguments = @" -Tpng -o " + "\"" + adss_png + "\"" + " " + "\"" + adss + "\"";
+            }
+            catch (IOException erdrer)
+            {
+                String s = erdrer.Message;
+            }
+            MyProc.StartInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            bool gj = MyProc.StartInfo.UseShellExecute;
+            bool g = MyProc.Start();
 
-               
-               try
-                {  
-                    MyProc.StartInfo.Arguments = @" -Tpng -o " + "\"" + adss_png + "\"" + " " + "\"" + adss + "\"";
-               //    if (m == 1)
-                      // MyProc.StartInfo.Arguments = @" -Tpng -o " + "\"" + adss_png_1 + "\"" + " " + "\"" + adss + "\"";
-                  // if (m == 2)
-                     //  MyProc.StartInfo.Arguments = @" -Tpng -o " + "\"" + adss_png_2 + "\"" + " " + "\"" + adss + "\"";
-                    //System.Threading.Thread.Sleep(5000);
-                }
-               catch (IOException erdrer)
-                {
-                    String s = erdrer.Message;
-                }
-                MyProc.StartInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-                bool gj = MyProc.StartInfo.UseShellExecute;
-                bool g = MyProc.Start();
-                //MyProc.Close();
-          //  }
             System.Threading.Thread.Sleep(100);
             MyProc.WaitForExit();
             MyProc.Dispose();
             MyProc.Close();
-           
+
         }
     }
 }

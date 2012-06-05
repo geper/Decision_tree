@@ -19,9 +19,7 @@ using System.Net.Cache;
 
 namespace DecisionTrees
 {
-    
-    
-    
+
     /// <summary>
     /// Загрузка дерева
     /// </summary>
@@ -30,12 +28,10 @@ namespace DecisionTrees
 
         int g;
 
-
         public UserControl1()
         {
             InitializeComponent();
-            g = this.GetHashCode();
-           
+            g = this.GetHashCode();    
             
         }
         public void Load_f(string str)
@@ -45,34 +41,11 @@ namespace DecisionTrees
 
             string adss_png = System.IO.Path.Combine(str, "Resources\\recursion.png");
             string to_adss_png = System.IO.Path.Combine(str, "Resources\\recursion1.png");
-          //  string adss_png = System.IO.Path.Combine( ".\\Resources\\recursion.png");
-          //  string to_adss_png = System.IO.Path.Combine(".\\Resources\\recursion1.png");
 
             image1.Source = null;
 
-           // bi.BeginInit();
-           // bi.
-           //// bi.UriSource = new Uri("");
-           // bi.EndInit();
-            if (System.IO.Directory.Exists(to_adss_png) && System.IO.Directory.Exists(adss_png))
-            {
-                
-             }
-        else{
-            bool gfile;
-                
-                //while(!(System.IO.Directory.Exists(to_adss_png) && System.IO.Directory.Exists(adss_png)))
-                //{
-                //      gfile= System.IO.Directory.Exists(to_adss_png) && System.IO.Directory.Exists(adss_png);
-
-                //}
-
-
-                gfile = System.IO.Directory.Exists(to_adss_png) && System.IO.Directory.Exists(adss_png);
-    }
             try
             {
-                File.Delete(to_adss_png);
                 File.Copy(adss_png, to_adss_png, true);
             }
             catch (Exception e)
@@ -80,8 +53,6 @@ namespace DecisionTrees
                 string g = e.Message;
             }
 
-            //}
-            // File.Delete(".\\Resources\\recursion1.png");
             bi.BeginInit();
             bi.CacheOption=BitmapCacheOption.OnLoad;
             bi.UriSource = new Uri(to_adss_png);
@@ -91,14 +62,8 @@ namespace DecisionTrees
             bi.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
 
             bi.EndInit();
-           
 
             image1.Source = bi;
-    
-
-           // image1.Source = null;
-           // bi.UriSource = null;
-      
 
         }
 

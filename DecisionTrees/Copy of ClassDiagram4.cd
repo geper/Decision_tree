@@ -63,24 +63,18 @@
       <Field Name="toolStripMenuItem3" Hidden="true" />
       <Field Name="toolStripMenuItem4" Hidden="true" />
       <Field Name="toolStripMenuItem5" Hidden="true" />
-      <Method Name="toolStripMenuItem5_Click" Hidden="true" />
       <Field Name="toolStripMenuItem6" Hidden="true" />
       <Field Name="toolStripMenuItem7" Hidden="true" />
-      <Method Name="toolStripMenuItem7_Click" Hidden="true" />
       <Field Name="toolStripSeparator3" Hidden="true" />
       <Field Name="toolStripSeparator4" Hidden="true" />
       <Field Name="zedGraphControl1" Hidden="true" />
       <Field Name="параметрыToolStripMenuItem" Hidden="true" />
       <Field Name="показатьОкноToolStripMenuItem" Hidden="true" />
-      <Method Name="показатьОкноToolStripMenuItem_Click" Hidden="true" />
     </Members>
     <TypeIdentifier>
-      <HashCode>FQSAAGQRCCEAQAQCwAmAQAATAAK4ZyAigGABgYBcJAA=</HashCode>
+      <HashCode>FQQAACQBACEAQAACAAGAQAASAAK4ZyACgCABgABYJAA=</HashCode>
       <FileName>MainForm.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Drawing" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="DecisionTrees.Program" Collapsed="true">
     <Position X="8.75" Y="0.5" Width="1.5" />
