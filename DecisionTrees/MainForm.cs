@@ -252,19 +252,29 @@ namespace DecisionTrees
 
                 // отображаем построенной дереыыо решений
                 decisionTreeView1.TreeSource = tree;
+             //   if (System.IO.Directory.Exists(@".\Resources\recursion2.png"))
+             //   {
 
-                try
-                {
-                    File.Copy(@".\Resources\recursion.png", @".\Resources\recursion2.png", true);
-                }
-                catch
-                {
-                }
-                using (Stream s = File.OpenRead(@".\Resources\recursion2.png"))
-                {
-                    pictureBox1.Image = Image.FromStream(s);
-                }
+                    try
+                    {
+                        File.Copy(@".\Resources\recursion.png", @".\Resources\recursion2.png", true);
+                        using (Stream s = File.OpenRead(@".\Resources\recursion2.png"))
+                        {
+                            pictureBox1.Image = Image.FromStream(s);
+                        }
+                    }
+                    catch (Exception weror)
+                    {
+                        string a = weror.Message;
+                    }
+
+              //  }
+               //using (Stream s = File.OpenRead(@".\Resources\recursion2.png"))
+               //{
+               //    pictureBox1.Image = Image.FromStream(s);
+               //}
                
+
             }
             catch (Exception t)
             {

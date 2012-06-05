@@ -160,18 +160,38 @@ namespace DecisionTrees
             System.Diagnostics.Process MyProc = new System.Diagnostics.Process(); 
             string adss = Path.Combine(Application.StartupPath, "Resources\\recursion.gv");
             string adss_png = Path.Combine(Application.StartupPath, "Resources\\recursion.png");
+            string adss_png_1 = Path.Combine(Application.StartupPath, "Resources\\recursion1.png");
+            string adss_png_2 = Path.Combine(Application.StartupPath, "Resources\\recursion2.png");
+
             MyProc.StartInfo.FileName = "dot.exe";
-            try
-            {
-                MyProc.StartInfo.Arguments = @" -Tpng -o " + "\"" + adss_png + "\"" + " " + "\"" + adss + "\"";
-            }
-            catch (IOException e)
-            {
-                String s = e.Message;
-            }
-            MyProc.StartInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            bool gj = MyProc.StartInfo.UseShellExecute; 
-            bool g = MyProc.Start();
+
+           // for (int m = 0; m < 3; m++)
+          //  {
+
+               
+               try
+                {  
+                    MyProc.StartInfo.Arguments = @" -Tpng -o " + "\"" + adss_png + "\"" + " " + "\"" + adss + "\"";
+               //    if (m == 1)
+                      // MyProc.StartInfo.Arguments = @" -Tpng -o " + "\"" + adss_png_1 + "\"" + " " + "\"" + adss + "\"";
+                  // if (m == 2)
+                     //  MyProc.StartInfo.Arguments = @" -Tpng -o " + "\"" + adss_png_2 + "\"" + " " + "\"" + adss + "\"";
+                    //System.Threading.Thread.Sleep(5000);
+                }
+               catch (IOException erdrer)
+                {
+                    String s = erdrer.Message;
+                }
+                MyProc.StartInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+                bool gj = MyProc.StartInfo.UseShellExecute;
+                bool g = MyProc.Start();
+                //MyProc.Close();
+          //  }
+            System.Threading.Thread.Sleep(100);
+            MyProc.WaitForExit();
+            MyProc.Dispose();
+            MyProc.Close();
+           
         }
     }
 }

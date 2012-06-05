@@ -54,16 +54,32 @@ namespace DecisionTrees
            // bi.
            //// bi.UriSource = new Uri("");
            // bi.EndInit();
+            if (System.IO.Directory.Exists(to_adss_png) && System.IO.Directory.Exists(adss_png))
+            {
+                
+             }
+        else{
+            bool gfile;
+                
+                //while(!(System.IO.Directory.Exists(to_adss_png) && System.IO.Directory.Exists(adss_png)))
+                //{
+                //      gfile= System.IO.Directory.Exists(to_adss_png) && System.IO.Directory.Exists(adss_png);
 
+                //}
+
+
+                gfile = System.IO.Directory.Exists(to_adss_png) && System.IO.Directory.Exists(adss_png);
+    }
             try
             {
                 File.Copy(adss_png, to_adss_png, true);
             }
-            catch (Exception e) 
+            catch (Exception e)
             {
-                string g =e.Message;
+                string g = e.Message;
             }
 
+            //}
             // File.Delete(".\\Resources\\recursion1.png");
             bi.BeginInit();
             bi.CacheOption=BitmapCacheOption.OnLoad;
